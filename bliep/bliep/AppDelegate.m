@@ -20,7 +20,7 @@
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     UIViewController *firstTime = [[FirstTimeUseViewController alloc] init];
-    if (![BliepAPI getTokenFromUserDefaults])
+    if ([BliepAPI getTokenFromUserDefaults].length == 0)
         self.window.rootViewController = firstTime;
     else
         self.window.rootViewController = self.viewController;

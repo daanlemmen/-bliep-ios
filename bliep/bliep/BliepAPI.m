@@ -9,7 +9,7 @@
 #import "BliepAPI.h"
 #import "BliepJSONEngine.h"
 #import "BliepJSONOperation.h"
-
+#import "KeychainItemWrapper.h"
 @interface BliepAPI()
 @property (nonatomic, strong) BliepJSONEngine *networkEngine;
 @end		
@@ -79,11 +79,22 @@
     [self.networkEngine enqueueOperation:operation];
 }
 +(NSString *)getTokenFromUserDefaults {
-    return [[NSUserDefaults standardUserDefaults] valueForKey:@"bliep_token"];
+    NSString *model = [[UIDevice currentDevice] model];
+    if ([model isEqualToString:@"iPhone Simulator"]) {
+        return [[NSUserDefaults standardUserDefaults] valueForKey:@"bliep_token"];
+    }
+    KeychainItemWrapper *itemWrapper = [[KeychainItemWrapper alloc] initWithIdentifier:@"bliep" accessGroup:nil];
+    return [itemWrapper objectForKey:(__bridge id)(kSecValueData)];
 }
 +(BOOL)setToken:(NSString *)token {
-    [[NSUserDefaults standardUserDefaults] setValue:token forKey:@"bliep_token"];
-    return [[NSUserDefaults standardUserDefaults] synchronize];
+    NSString *model = [[UIDevice currentDevice] model];
+    if ([model isEqualToString:@"iPhone Simulator"]) {
+        [[NSUserDefaults standardUserDefaults] setValue:token forKey:@"bliep_token"];
+        return [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+    KeychainItemWrapper *itemWrapper = [[KeychainItemWrapper alloc] initWithIdentifier:@"bliep" accessGroup:nil];
+    [itemWrapper setObject:token forKey:(__bridge id)(kSecValueData)];
+    return YES;
 }
 +(NSDictionary *)getAccountInfoFromUserDefaults {
     return [[NSUserDefaults standardUserDefaults] dictionaryForKey:@"cachedAccountInfo"];

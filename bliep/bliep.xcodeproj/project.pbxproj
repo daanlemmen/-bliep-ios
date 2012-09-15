@@ -13,6 +13,24 @@
 		FB378C101603F5E6009286B4 /* FirstTimeUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB378C0E1603F5E5009286B4 /* FirstTimeUseViewController.m */; };
 		FB378C111603F5E6009286B4 /* FirstTimeUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB378C0F1603F5E6009286B4 /* FirstTimeUseViewController.xib */; };
 		FB378C131603FA89009286B4 /* museo700regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB378C121603FA89009286B4 /* museo700regular.ttf */; };
+		FB5A15021604F50F00FFEE3D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F01604F50F00FFEE3D /* back.png */; };
+		FB5A15031604F50F00FFEE3D /* back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F11604F50F00FFEE3D /* back@2x.png */; };
+		FB5A15041604F50F00FFEE3D /* balance.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F21604F50F00FFEE3D /* balance.png */; };
+		FB5A15051604F50F00FFEE3D /* balance@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F31604F50F00FFEE3D /* balance@2x.png */; };
+		FB5A15061604F50F00FFEE3D /* functions.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F41604F50F00FFEE3D /* functions.png */; };
+		FB5A15071604F50F00FFEE3D /* functions@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F51604F50F00FFEE3D /* functions@2x.png */; };
+		FB5A15081604F50F00FFEE3D /* signin.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F61604F50F00FFEE3D /* signin.png */; };
+		FB5A15091604F50F00FFEE3D /* signin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F71604F50F00FFEE3D /* signin@2x.png */; };
+		FB5A150A1604F50F00FFEE3D /* signinbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F81604F50F00FFEE3D /* signinbutton.png */; };
+		FB5A150B1604F50F00FFEE3D /* signinbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14F91604F50F00FFEE3D /* signinbutton@2x.png */; };
+		FB5A150C1604F50F00FFEE3D /* signout.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14FA1604F50F00FFEE3D /* signout.png */; };
+		FB5A150D1604F50F00FFEE3D /* signout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14FB1604F50F00FFEE3D /* signout@2x.png */; };
+		FB5A150E1604F50F00FFEE3D /* tariffoff.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14FC1604F50F00FFEE3D /* tariffoff.png */; };
+		FB5A150F1604F50F00FFEE3D /* tariffoff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14FD1604F50F00FFEE3D /* tariffoff@2x.png */; };
+		FB5A15101604F50F00FFEE3D /* tariffon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14FE1604F50F00FFEE3D /* tariffon.png */; };
+		FB5A15111604F50F00FFEE3D /* tariffon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A14FF1604F50F00FFEE3D /* tariffon@2x.png */; };
+		FB5A15121604F50F00FFEE3D /* topbar.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A15001604F50F00FFEE3D /* topbar.png */; };
+		FB5A15131604F50F00FFEE3D /* topbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB5A15011604F50F00FFEE3D /* topbar@2x.png */; };
 		FB6DE154160392F700CE1FA0 /* BliepAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE153160392F700CE1FA0 /* BliepAPI.m */; };
 		FB6DE17B1603B24B00CE1FA0 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE1691603B24B00CE1FA0 /* NSData+Base64.m */; };
 		FB6DE17C1603B24B00CE1FA0 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE16B1603B24B00CE1FA0 /* NSDate+RFC1123.m */; };
@@ -37,6 +55,7 @@
 		FB70E68016034EBC0072C926 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB70E67F16034EBC0072C926 /* Default-568h@2x.png */; };
 		FB70E68316034EBC0072C926 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB70E68216034EBC0072C926 /* ViewController.m */; };
 		FB70E68616034EBC0072C926 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB70E68416034EBC0072C926 /* ViewController.xib */; };
+		FBB7653E16046F2800C483EC /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB7653D16046F2800C483EC /* KeychainItemWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +66,24 @@
 		FB378C0E1603F5E5009286B4 /* FirstTimeUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTimeUseViewController.m; sourceTree = "<group>"; };
 		FB378C0F1603F5E6009286B4 /* FirstTimeUseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTimeUseViewController.xib; sourceTree = "<group>"; };
 		FB378C121603FA89009286B4 /* museo700regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = museo700regular.ttf; sourceTree = "<group>"; };
+		FB5A14F01604F50F00FFEE3D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		FB5A14F11604F50F00FFEE3D /* back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@2x.png"; sourceTree = "<group>"; };
+		FB5A14F21604F50F00FFEE3D /* balance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balance.png; sourceTree = "<group>"; };
+		FB5A14F31604F50F00FFEE3D /* balance@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "balance@2x.png"; sourceTree = "<group>"; };
+		FB5A14F41604F50F00FFEE3D /* functions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = functions.png; sourceTree = "<group>"; };
+		FB5A14F51604F50F00FFEE3D /* functions@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "functions@2x.png"; sourceTree = "<group>"; };
+		FB5A14F61604F50F00FFEE3D /* signin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signin.png; sourceTree = "<group>"; };
+		FB5A14F71604F50F00FFEE3D /* signin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signin@2x.png"; sourceTree = "<group>"; };
+		FB5A14F81604F50F00FFEE3D /* signinbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signinbutton.png; sourceTree = "<group>"; };
+		FB5A14F91604F50F00FFEE3D /* signinbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signinbutton@2x.png"; sourceTree = "<group>"; };
+		FB5A14FA1604F50F00FFEE3D /* signout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signout.png; sourceTree = "<group>"; };
+		FB5A14FB1604F50F00FFEE3D /* signout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signout@2x.png"; sourceTree = "<group>"; };
+		FB5A14FC1604F50F00FFEE3D /* tariffoff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tariffoff.png; sourceTree = "<group>"; };
+		FB5A14FD1604F50F00FFEE3D /* tariffoff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tariffoff@2x.png"; sourceTree = "<group>"; };
+		FB5A14FE1604F50F00FFEE3D /* tariffon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tariffon.png; sourceTree = "<group>"; };
+		FB5A14FF1604F50F00FFEE3D /* tariffon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tariffon@2x.png"; sourceTree = "<group>"; };
+		FB5A15001604F50F00FFEE3D /* topbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topbar.png; sourceTree = "<group>"; };
+		FB5A15011604F50F00FFEE3D /* topbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topbar@2x.png"; sourceTree = "<group>"; };
 		FB6DE152160392F700CE1FA0 /* BliepAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BliepAPI.h; sourceTree = "<group>"; };
 		FB6DE153160392F700CE1FA0 /* BliepAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BliepAPI.m; sourceTree = "<group>"; };
 		FB6DE1681603B24B00CE1FA0 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
@@ -88,6 +125,8 @@
 		FB70E68116034EBC0072C926 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FB70E68216034EBC0072C926 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FB70E68516034EBC0072C926 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		FBB7653C16046F2800C483EC /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		FBB7653D16046F2800C483EC /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +244,26 @@
 		FB70E67016034EBB0072C926 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB5A14F01604F50F00FFEE3D /* back.png */,
+				FB5A14F11604F50F00FFEE3D /* back@2x.png */,
+				FB5A14F21604F50F00FFEE3D /* balance.png */,
+				FB5A14F31604F50F00FFEE3D /* balance@2x.png */,
+				FB5A14F41604F50F00FFEE3D /* functions.png */,
+				FB5A14F51604F50F00FFEE3D /* functions@2x.png */,
+				FB5A14F61604F50F00FFEE3D /* signin.png */,
+				FB5A14F71604F50F00FFEE3D /* signin@2x.png */,
+				FB5A14F81604F50F00FFEE3D /* signinbutton.png */,
+				FB5A14F91604F50F00FFEE3D /* signinbutton@2x.png */,
+				FB5A14FA1604F50F00FFEE3D /* signout.png */,
+				FB5A14FB1604F50F00FFEE3D /* signout@2x.png */,
+				FB5A14FC1604F50F00FFEE3D /* tariffoff.png */,
+				FB5A14FD1604F50F00FFEE3D /* tariffoff@2x.png */,
+				FB5A14FE1604F50F00FFEE3D /* tariffon.png */,
+				FB5A14FF1604F50F00FFEE3D /* tariffon@2x.png */,
+				FB5A15001604F50F00FFEE3D /* topbar.png */,
+				FB5A15011604F50F00FFEE3D /* topbar@2x.png */,
+				FBB7653C16046F2800C483EC /* KeychainItemWrapper.h */,
+				FBB7653D16046F2800C483EC /* KeychainItemWrapper.m */,
 				FB378C121603FA89009286B4 /* museo700regular.ttf */,
 				FB70E67116034EBB0072C926 /* bliep-Info.plist */,
 				FB70E67216034EBB0072C926 /* InfoPlist.strings */,
@@ -277,6 +336,24 @@
 				FB378C091603EAF4009286B4 /* Icon@2x.png in Resources */,
 				FB378C111603F5E6009286B4 /* FirstTimeUseViewController.xib in Resources */,
 				FB378C131603FA89009286B4 /* museo700regular.ttf in Resources */,
+				FB5A15021604F50F00FFEE3D /* back.png in Resources */,
+				FB5A15031604F50F00FFEE3D /* back@2x.png in Resources */,
+				FB5A15041604F50F00FFEE3D /* balance.png in Resources */,
+				FB5A15051604F50F00FFEE3D /* balance@2x.png in Resources */,
+				FB5A15061604F50F00FFEE3D /* functions.png in Resources */,
+				FB5A15071604F50F00FFEE3D /* functions@2x.png in Resources */,
+				FB5A15081604F50F00FFEE3D /* signin.png in Resources */,
+				FB5A15091604F50F00FFEE3D /* signin@2x.png in Resources */,
+				FB5A150A1604F50F00FFEE3D /* signinbutton.png in Resources */,
+				FB5A150B1604F50F00FFEE3D /* signinbutton@2x.png in Resources */,
+				FB5A150C1604F50F00FFEE3D /* signout.png in Resources */,
+				FB5A150D1604F50F00FFEE3D /* signout@2x.png in Resources */,
+				FB5A150E1604F50F00FFEE3D /* tariffoff.png in Resources */,
+				FB5A150F1604F50F00FFEE3D /* tariffoff@2x.png in Resources */,
+				FB5A15101604F50F00FFEE3D /* tariffon.png in Resources */,
+				FB5A15111604F50F00FFEE3D /* tariffon@2x.png in Resources */,
+				FB5A15121604F50F00FFEE3D /* topbar.png in Resources */,
+				FB5A15131604F50F00FFEE3D /* topbar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +379,7 @@
 				FB6DE1851603B28200CE1FA0 /* BliepJSONEngine.m in Sources */,
 				FB6DE18C1603B5CB00CE1FA0 /* BliepJSONOperation.m in Sources */,
 				FB378C101603F5E6009286B4 /* FirstTimeUseViewController.m in Sources */,
+				FBB7653E16046F2800C483EC /* KeychainItemWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,10 +456,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bliep/bliep-Prefix.pch";
 				INFOPLIST_FILE = "bliep/bliep-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -390,10 +470,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "bliep/bliep-Prefix.pch";
 				INFOPLIST_FILE = "bliep/bliep-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
