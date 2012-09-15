@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB378C041603D66B009286B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB378C031603D66B009286B4 /* QuartzCore.framework */; };
+		FB378C081603EAF4009286B4 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB378C061603EAF4009286B4 /* Icon.png */; };
+		FB378C091603EAF4009286B4 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB378C071603EAF4009286B4 /* Icon@2x.png */; };
+		FB378C101603F5E6009286B4 /* FirstTimeUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB378C0E1603F5E5009286B4 /* FirstTimeUseViewController.m */; };
+		FB378C111603F5E6009286B4 /* FirstTimeUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB378C0F1603F5E6009286B4 /* FirstTimeUseViewController.xib */; };
+		FB378C131603FA89009286B4 /* museo700regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB378C121603FA89009286B4 /* museo700regular.ttf */; };
+		FB6DE154160392F700CE1FA0 /* BliepAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE153160392F700CE1FA0 /* BliepAPI.m */; };
+		FB6DE17B1603B24B00CE1FA0 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE1691603B24B00CE1FA0 /* NSData+Base64.m */; };
+		FB6DE17C1603B24B00CE1FA0 /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE16B1603B24B00CE1FA0 /* NSDate+RFC1123.m */; };
+		FB6DE17D1603B24B00CE1FA0 /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE16D1603B24B00CE1FA0 /* NSDictionary+RequestEncoding.m */; };
+		FB6DE17E1603B24B00CE1FA0 /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE16F1603B24B00CE1FA0 /* NSString+MKNetworkKitAdditions.m */; };
+		FB6DE17F1603B24B00CE1FA0 /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE1711603B24B00CE1FA0 /* UIAlertView+MKNetworkKitAdditions.m */; };
+		FB6DE1801603B24B00CE1FA0 /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE1731603B24B00CE1FA0 /* MKNetworkEngine.m */; };
+		FB6DE1811603B24B00CE1FA0 /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE1761603B24B00CE1FA0 /* MKNetworkOperation.m */; };
+		FB6DE1821603B24B00CE1FA0 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE1791603B24B00CE1FA0 /* Reachability.m */; };
+		FB6DE1851603B28200CE1FA0 /* BliepJSONEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE1841603B28200CE1FA0 /* BliepJSONEngine.m */; };
+		FB6DE1871603B4B400CE1FA0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6DE1861603B4B400CE1FA0 /* Security.framework */; };
+		FB6DE1891603B4E200CE1FA0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6DE1881603B4E200CE1FA0 /* SystemConfiguration.framework */; };
+		FB6DE18C1603B5CB00CE1FA0 /* BliepJSONOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6DE18B1603B5CB00CE1FA0 /* BliepJSONOperation.m */; };
+		FB70E66A16034EBB0072C926 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB70E66916034EBB0072C926 /* UIKit.framework */; };
+		FB70E66C16034EBB0072C926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB70E66B16034EBB0072C926 /* Foundation.framework */; };
+		FB70E66E16034EBB0072C926 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB70E66D16034EBB0072C926 /* CoreGraphics.framework */; };
+		FB70E67416034EBB0072C926 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB70E67216034EBB0072C926 /* InfoPlist.strings */; };
+		FB70E67616034EBB0072C926 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB70E67516034EBB0072C926 /* main.m */; };
+		FB70E67A16034EBB0072C926 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB70E67916034EBB0072C926 /* AppDelegate.m */; };
+		FB70E67C16034EBB0072C926 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB70E67B16034EBB0072C926 /* Default.png */; };
+		FB70E67E16034EBC0072C926 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB70E67D16034EBC0072C926 /* Default@2x.png */; };
+		FB70E68016034EBC0072C926 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB70E67F16034EBC0072C926 /* Default-568h@2x.png */; };
+		FB70E68316034EBC0072C926 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB70E68216034EBC0072C926 /* ViewController.m */; };
+		FB70E68616034EBC0072C926 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB70E68416034EBC0072C926 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FB378C031603D66B009286B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FB378C061603EAF4009286B4 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FB378C071603EAF4009286B4 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		FB378C0D1603F5E5009286B4 /* FirstTimeUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTimeUseViewController.h; sourceTree = "<group>"; };
+		FB378C0E1603F5E5009286B4 /* FirstTimeUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTimeUseViewController.m; sourceTree = "<group>"; };
+		FB378C0F1603F5E6009286B4 /* FirstTimeUseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstTimeUseViewController.xib; sourceTree = "<group>"; };
+		FB378C121603FA89009286B4 /* museo700regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = museo700regular.ttf; sourceTree = "<group>"; };
+		FB6DE152160392F700CE1FA0 /* BliepAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BliepAPI.h; sourceTree = "<group>"; };
+		FB6DE153160392F700CE1FA0 /* BliepAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BliepAPI.m; sourceTree = "<group>"; };
+		FB6DE1681603B24B00CE1FA0 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		FB6DE1691603B24B00CE1FA0 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		FB6DE16A1603B24B00CE1FA0 /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		FB6DE16B1603B24B00CE1FA0 /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		FB6DE16C1603B24B00CE1FA0 /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		FB6DE16D1603B24B00CE1FA0 /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		FB6DE16E1603B24B00CE1FA0 /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		FB6DE16F1603B24B00CE1FA0 /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		FB6DE1701603B24B00CE1FA0 /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		FB6DE1711603B24B00CE1FA0 /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		FB6DE1721603B24B00CE1FA0 /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		FB6DE1731603B24B00CE1FA0 /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		FB6DE1741603B24B00CE1FA0 /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		FB6DE1751603B24B00CE1FA0 /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		FB6DE1761603B24B00CE1FA0 /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		FB6DE1781603B24B00CE1FA0 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		FB6DE1791603B24B00CE1FA0 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		FB6DE1831603B28200CE1FA0 /* BliepJSONEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BliepJSONEngine.h; sourceTree = "<group>"; };
+		FB6DE1841603B28200CE1FA0 /* BliepJSONEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BliepJSONEngine.m; sourceTree = "<group>"; };
+		FB6DE1861603B4B400CE1FA0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FB6DE1881603B4E200CE1FA0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FB6DE18A1603B5CB00CE1FA0 /* BliepJSONOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BliepJSONOperation.h; sourceTree = "<group>"; };
+		FB6DE18B1603B5CB00CE1FA0 /* BliepJSONOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BliepJSONOperation.m; sourceTree = "<group>"; };
+		FB70E66516034EBB0072C926 /* bliep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bliep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB70E66916034EBB0072C926 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB70E66B16034EBB0072C926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB70E66D16034EBB0072C926 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB70E67116034EBB0072C926 /* bliep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bliep-Info.plist"; sourceTree = "<group>"; };
+		FB70E67316034EBB0072C926 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB70E67516034EBB0072C926 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB70E67716034EBB0072C926 /* bliep-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bliep-Prefix.pch"; sourceTree = "<group>"; };
+		FB70E67816034EBB0072C926 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB70E67916034EBB0072C926 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB70E67B16034EBB0072C926 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FB70E67D16034EBC0072C926 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FB70E67F16034EBC0072C926 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FB70E68116034EBC0072C926 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB70E68216034EBC0072C926 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB70E68516034EBC0072C926 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB70E66216034EBB0072C926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB378C041603D66B009286B4 /* QuartzCore.framework in Frameworks */,
+				FB6DE1891603B4E200CE1FA0 /* SystemConfiguration.framework in Frameworks */,
+				FB6DE1871603B4B400CE1FA0 /* Security.framework in Frameworks */,
+				FB70E66A16034EBB0072C926 /* UIKit.framework in Frameworks */,
+				FB70E66C16034EBB0072C926 /* Foundation.framework in Frameworks */,
+				FB70E66E16034EBB0072C926 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB6DE1641603B24B00CE1FA0 /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				FB6DE1651603B24B00CE1FA0 /* Categories */,
+				FB6DE1721603B24B00CE1FA0 /* MKNetworkEngine.h */,
+				FB6DE1731603B24B00CE1FA0 /* MKNetworkEngine.m */,
+				FB6DE1741603B24B00CE1FA0 /* MKNetworkKit.h */,
+				FB6DE1751603B24B00CE1FA0 /* MKNetworkOperation.h */,
+				FB6DE1761603B24B00CE1FA0 /* MKNetworkOperation.m */,
+				FB6DE1771603B24B00CE1FA0 /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		FB6DE1651603B24B00CE1FA0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FB6DE1681603B24B00CE1FA0 /* NSData+Base64.h */,
+				FB6DE1691603B24B00CE1FA0 /* NSData+Base64.m */,
+				FB6DE16A1603B24B00CE1FA0 /* NSDate+RFC1123.h */,
+				FB6DE16B1603B24B00CE1FA0 /* NSDate+RFC1123.m */,
+				FB6DE16C1603B24B00CE1FA0 /* NSDictionary+RequestEncoding.h */,
+				FB6DE16D1603B24B00CE1FA0 /* NSDictionary+RequestEncoding.m */,
+				FB6DE16E1603B24B00CE1FA0 /* NSString+MKNetworkKitAdditions.h */,
+				FB6DE16F1603B24B00CE1FA0 /* NSString+MKNetworkKitAdditions.m */,
+				FB6DE1701603B24B00CE1FA0 /* UIAlertView+MKNetworkKitAdditions.h */,
+				FB6DE1711603B24B00CE1FA0 /* UIAlertView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FB6DE1771603B24B00CE1FA0 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				FB6DE1781603B24B00CE1FA0 /* Reachability.h */,
+				FB6DE1791603B24B00CE1FA0 /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		FB70E65A16034EBB0072C926 = {
+			isa = PBXGroup;
+			children = (
+				FB378C061603EAF4009286B4 /* Icon.png */,
+				FB378C071603EAF4009286B4 /* Icon@2x.png */,
+				FB378C031603D66B009286B4 /* QuartzCore.framework */,
+				FB6DE1881603B4E200CE1FA0 /* SystemConfiguration.framework */,
+				FB6DE1861603B4B400CE1FA0 /* Security.framework */,
+				FB70E66F16034EBB0072C926 /* bliep */,
+				FB70E66816034EBB0072C926 /* Frameworks */,
+				FB70E66616034EBB0072C926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB70E66616034EBB0072C926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB70E66516034EBB0072C926 /* bliep.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB70E66816034EBB0072C926 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB70E66916034EBB0072C926 /* UIKit.framework */,
+				FB70E66B16034EBB0072C926 /* Foundation.framework */,
+				FB70E66D16034EBB0072C926 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB70E66F16034EBB0072C926 /* bliep */ = {
+			isa = PBXGroup;
+			children = (
+				FB6DE1641603B24B00CE1FA0 /* MKNetworkKit */,
+				FB70E67816034EBB0072C926 /* AppDelegate.h */,
+				FB70E67916034EBB0072C926 /* AppDelegate.m */,
+				FB70E68116034EBC0072C926 /* ViewController.h */,
+				FB70E68216034EBC0072C926 /* ViewController.m */,
+				FB70E68416034EBC0072C926 /* ViewController.xib */,
+				FB6DE152160392F700CE1FA0 /* BliepAPI.h */,
+				FB6DE153160392F700CE1FA0 /* BliepAPI.m */,
+				FB6DE18A1603B5CB00CE1FA0 /* BliepJSONOperation.h */,
+				FB6DE18B1603B5CB00CE1FA0 /* BliepJSONOperation.m */,
+				FB6DE1831603B28200CE1FA0 /* BliepJSONEngine.h */,
+				FB6DE1841603B28200CE1FA0 /* BliepJSONEngine.m */,
+				FB378C0D1603F5E5009286B4 /* FirstTimeUseViewController.h */,
+				FB378C0E1603F5E5009286B4 /* FirstTimeUseViewController.m */,
+				FB378C0F1603F5E6009286B4 /* FirstTimeUseViewController.xib */,
+				FB70E67016034EBB0072C926 /* Supporting Files */,
+			);
+			path = bliep;
+			sourceTree = "<group>";
+		};
+		FB70E67016034EBB0072C926 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB378C121603FA89009286B4 /* museo700regular.ttf */,
+				FB70E67116034EBB0072C926 /* bliep-Info.plist */,
+				FB70E67216034EBB0072C926 /* InfoPlist.strings */,
+				FB70E67516034EBB0072C926 /* main.m */,
+				FB70E67716034EBB0072C926 /* bliep-Prefix.pch */,
+				FB70E67B16034EBB0072C926 /* Default.png */,
+				FB70E67D16034EBC0072C926 /* Default@2x.png */,
+				FB70E67F16034EBC0072C926 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB70E66416034EBB0072C926 /* bliep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB70E68916034EBC0072C926 /* Build configuration list for PBXNativeTarget "bliep" */;
+			buildPhases = (
+				FB70E66116034EBB0072C926 /* Sources */,
+				FB70E66216034EBB0072C926 /* Frameworks */,
+				FB70E66316034EBB0072C926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bliep;
+			productName = bliep;
+			productReference = FB70E66516034EBB0072C926 /* bliep.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB70E65C16034EBB0072C926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Daan Lemmen";
+			};
+			buildConfigurationList = FB70E65F16034EBB0072C926 /* Build configuration list for PBXProject "bliep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB70E65A16034EBB0072C926;
+			productRefGroup = FB70E66616034EBB0072C926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB70E66416034EBB0072C926 /* bliep */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB70E66316034EBB0072C926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70E67416034EBB0072C926 /* InfoPlist.strings in Resources */,
+				FB70E67C16034EBB0072C926 /* Default.png in Resources */,
+				FB70E67E16034EBC0072C926 /* Default@2x.png in Resources */,
+				FB70E68016034EBC0072C926 /* Default-568h@2x.png in Resources */,
+				FB70E68616034EBC0072C926 /* ViewController.xib in Resources */,
+				FB378C081603EAF4009286B4 /* Icon.png in Resources */,
+				FB378C091603EAF4009286B4 /* Icon@2x.png in Resources */,
+				FB378C111603F5E6009286B4 /* FirstTimeUseViewController.xib in Resources */,
+				FB378C131603FA89009286B4 /* museo700regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB70E66116034EBB0072C926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB70E67616034EBB0072C926 /* main.m in Sources */,
+				FB70E67A16034EBB0072C926 /* AppDelegate.m in Sources */,
+				FB70E68316034EBC0072C926 /* ViewController.m in Sources */,
+				FB6DE154160392F700CE1FA0 /* BliepAPI.m in Sources */,
+				FB6DE17B1603B24B00CE1FA0 /* NSData+Base64.m in Sources */,
+				FB6DE17C1603B24B00CE1FA0 /* NSDate+RFC1123.m in Sources */,
+				FB6DE17D1603B24B00CE1FA0 /* NSDictionary+RequestEncoding.m in Sources */,
+				FB6DE17E1603B24B00CE1FA0 /* NSString+MKNetworkKitAdditions.m in Sources */,
+				FB6DE17F1603B24B00CE1FA0 /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				FB6DE1801603B24B00CE1FA0 /* MKNetworkEngine.m in Sources */,
+				FB6DE1811603B24B00CE1FA0 /* MKNetworkOperation.m in Sources */,
+				FB6DE1821603B24B00CE1FA0 /* Reachability.m in Sources */,
+				FB6DE1851603B28200CE1FA0 /* BliepJSONEngine.m in Sources */,
+				FB6DE18C1603B5CB00CE1FA0 /* BliepJSONOperation.m in Sources */,
+				FB378C101603F5E6009286B4 /* FirstTimeUseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB70E67216034EBB0072C926 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB70E67316034EBB0072C926 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB70E68416034EBC0072C926 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB70E68516034EBC0072C926 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB70E68716034EBC0072C926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB70E68816034EBC0072C926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB70E68A16034EBC0072C926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bliep/bliep-Prefix.pch";
+				INFOPLIST_FILE = "bliep/bliep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB70E68B16034EBC0072C926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "bliep/bliep-Prefix.pch";
+				INFOPLIST_FILE = "bliep/bliep-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB70E65F16034EBB0072C926 /* Build configuration list for PBXProject "bliep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70E68716034EBC0072C926 /* Debug */,
+				FB70E68816034EBC0072C926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB70E68916034EBC0072C926 /* Build configuration list for PBXNativeTarget "bliep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB70E68A16034EBC0072C926 /* Debug */,
+				FB70E68B16034EBC0072C926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB70E65C16034EBB0072C926 /* Project object */;
+}
